@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "WrappingHStack",
+    name: "WrappingStack",
     platforms: [
         .iOS(.v16),
         .macOS(.v13),
@@ -11,14 +11,14 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "WrappingHStack",
-            targets: ["WrappingHStack"]
+            name: "WrappingStack",
+            targets: ["WrappingStack"]
         ),
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "WrappingHStack",
+            name: "WrappingStack",
             dependencies: []
         ),
     ]
